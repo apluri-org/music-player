@@ -1,13 +1,12 @@
 import React from "react";
-import { SafeAreaView, ScrollView, StatusBar, Text } from "react-native";
+import { SafeAreaView, ScrollView, StatusBar } from "react-native";
+import HomeScreen from "./components/HomeScreen";
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "gray" }}>
       <StatusBar />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <Text style={{ color: "white" }}>Hello physical phone</Text>
-      </ScrollView>
+      <HomeScreen />
     </SafeAreaView>
   );
 }
