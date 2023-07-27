@@ -6,7 +6,7 @@ function App(): JSX.Element {
     <SafeAreaView>
       <StatusBar />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <Text style={{ color: "white" }}>Hello world</Text>
+        <Text style={{ color: "white" }}>Hello physical phone</Text>
       </ScrollView>
     </SafeAreaView>
   );
